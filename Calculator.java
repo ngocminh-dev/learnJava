@@ -1,29 +1,28 @@
-import javax.naming.spi.DirStateFactory.Result;
-
 public class Calculator {
 
     public int add(int operand1, int operand2) {
         /* your code here */
-        int result = operand1+operand2 ;
+        int result = operand1 + operand2;
         return result;
     }
 
     public int subtract(int operand1, int operand2) {
         /* your code here */
-        int result = operand1-operand2 ;
+        int result = operand1 - operand2;
         return result;
     }
 
     public int multiple(int operand1, int operand2) {
         /* your code here */
-        int result = operand1*operand2 ;
+        int result = operand1 * operand2;
         return result;
     }
 
     public float divide(int operand1, int operand2) {
         /* your code here */
-        if(operand2==0) return Float.MAX_VALUE;
-        float result = operand1/operand2 ;
+        if (operand2 == 0)
+            return Float.MAX_VALUE;
+        float result = operand1 / operand2;
         return result;
     }
 
